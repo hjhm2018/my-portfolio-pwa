@@ -29,7 +29,7 @@ function CryptocurrencyApp() {
         {
           method: "GET",
           headers: {
-            "x-rapidapi-key": `${process.env.REACT_APP_cryptoAppKey}`,
+            "x-rapidapi-key": `${process.env.REACT_APP_apiKey}`,
             "x-rapidapi-host": "coingecko.p.rapidapi.com",
           },
         }
@@ -95,11 +95,10 @@ function CryptocurrencyApp() {
                   </td>
                   <td>{item.current_price}</td>
                   <td
-                    className={`${
-                      Number(item.price_change_percentage_24h) > 0
+                    className={`${Number(item.price_change_percentage_24h) > 0
                         ? "text-success"
                         : "text-danger"
-                    }`}
+                      }`}
                   >
                     {item.price_change_percentage_24h.toFixed(2)}
                     &nbsp;
