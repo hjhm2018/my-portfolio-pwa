@@ -21,7 +21,7 @@ function About() {
         <meta name="description" content="About Page" />
       </Helmet>
       <div className="row">
-        <div className="col-12 col-md-10 mx-auto">
+        <div className="col-12 col-md-8 mx-auto px-2">
           <h1 className="text-center mt-2 bg-dark p-2 rounded text-white ">
             About &nbsp;
             <BiUserCircle />
@@ -29,7 +29,7 @@ function About() {
         </div>
       </div>
       <div class="row">
-        <div className="col-12 col-md-10 text-center font-italic mt-3 mb-3 mx-auto">
+        <div className="col-12 col-md-8 text-center font-italic mt-3 mb-3 mx-auto">
           <p>
             My name is Henry Herrera, and I am a geological engineer turned web
             developer. I have a masters in geology and a postgraduate diploma in
@@ -45,14 +45,16 @@ function About() {
             That inspiration led me to create my own websites learning by
             watching tutorials, and then I decided to make it more formal and
             took many web development courses starting in 2017 and continuing to
-            this day. By now, I have developed 2 websites and published an app
-            on Google Play..
+            this day. By now, I have developed 7 websites and published an app
+            on Google Play (not available anymore).
           </p>
           <p>
-            I just finished a diploma program in Web and Mobile Applications
+            I finished a diploma program in Web and Mobile Applications
             Development at Cornerstone International Community College of
-            Canada, and am currently looking for full-time job as a web
-            developer.
+            Canada in 2021.
+          </p>
+          <p>
+            Now, I'm currently enrolled at Langara College in Vancouver for the Web and Mobile App Design and Development program.
           </p>
           <p>
             The web technologies, programming languages, libraries, frameworks,
@@ -99,7 +101,7 @@ function About() {
             title="Resume"
             width="100%"
             height="480"
-            src="https://drive.google.com/file/d/10g4qSpBU_2YSiSpF5Z0ismYxWjrpaaBI/preview"
+            src="https://drive.google.com/file/d/1mW0T_KSaNkLabw3gKwMKOQnWH3AFmHi0/preview"
           ></iframe>
         </div>
       )}

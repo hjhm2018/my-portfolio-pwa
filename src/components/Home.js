@@ -31,20 +31,18 @@ function Home() {
             <Card.Body>
               <Card.Title>Hello!</Card.Title>
               <Card.Text className="pt-3 text-justify">
-                My name is Henry Herrera, I'm a web developer and this is my
+                My name is Henry Herrera, I'm a front-end web developer and this is my
                 portfolio!
               </Card.Text>
               <Card.Text className="text-justify">
-                I just graduated from a Web and Mobile Development Co-Op program
-                at Cornerstone International Community College of Canada in
-                Vancouver.
+                I am currently attending Langara College in Vancouver for the Web and Mobile App Design and Development program.
               </Card.Text>
               <Card.Text className="text-justify">
-                I am currently looking for a full-time position as a Web
+                I am currently looking for a part-time position as a Web
                 Developer!
               </Card.Text>
               <Card.Text className="mb-5 text-justify">
-                If you know about an opportunity, please reach out to me!
+                If you know about any opportunity, please reach out to me!
               </Card.Text>
               <Nav.Link
                 className="btn btn-dark col-lg-4 col-md-8 col-8 ml-auto mt-5"
