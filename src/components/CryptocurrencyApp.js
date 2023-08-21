@@ -58,7 +58,7 @@ function CryptocurrencyApp() {
           <MdMonetizationOn /> Cryptocurrency App <MdLocalAtm />
         </h1>
       </div>
-      <div class="col-12">
+      <div className="col-12">
         <h2
           className="text-center p-2"
           style={{ fontFamily: "Courier New, monospace" }}
@@ -96,8 +96,8 @@ function CryptocurrencyApp() {
                   <td>{item.current_price}</td>
                   <td
                     className={`${Number(item.price_change_percentage_24h) > 0
-                        ? "text-success"
-                        : "text-danger"
+                      ? "text-success"
+                      : "text-danger"
                       }`}
                   >
                     {item.price_change_percentage_24h.toFixed(2)}
