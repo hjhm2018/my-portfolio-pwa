@@ -170,11 +170,11 @@ const Projects = () => {
       name: "Birthday Reminder App",
       icon: "&#x1F382;",
     },
-    {
-      url: "cryptocurrencyapp",
-      name: "Cryptocurrencies Price App",
-      icon: "&#x1F4B9;",
-    },
+    // {
+    //   url: "cryptocurrencyapp",
+    //   name: "Cryptocurrencies Price App",
+    //   icon: "&#x1F4B9;",
+    // },
     {
       url: "randombibleversesapp",
       name: "Random Bible Verses App",
