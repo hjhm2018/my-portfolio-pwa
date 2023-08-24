@@ -150,11 +150,11 @@ const Projects = () => {
       name: "Earthquake Counter App",
       icon: "&#x1F30E",
     },
-    {
-      url: "weatherapp",
-      name: "Weather App",
-      icon: "&#x2614;",
-    },
+    // {
+    //   url: "weatherapp",
+    //   name: "Weather App",
+    //   icon: "&#x2614;",
+    // },
     {
       url: "reactfilter",
       name: "React Filter by Name",
