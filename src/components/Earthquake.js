@@ -253,6 +253,7 @@ const Earthquake = () => {
       const { features } = data;
 
       setEarthquakeData(features);
+      console.log(earthquakeData)
       setShow(true);
     } catch (error) {
       console.log(error);
@@ -375,7 +376,7 @@ const Earthquake = () => {
           </tr>
         </thead>
         <tbody>
-          {show && earthquakeData ? (
+          {/* {show && earthquakeData ? (
             earthquakeData
               .filter((data) => data.properties.place.includes(country))
               .map((earthquake, index) => (
@@ -395,7 +396,7 @@ const Earthquake = () => {
             <tr>
               <td colSpan="8">No data</td>
             </tr>
-          )}
+          )} */}
         </tbody>
       </table>
     </div>

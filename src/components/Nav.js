@@ -9,7 +9,7 @@ import Contact from "./Contact";
 import Education from "./Education";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Earthquake from "./Earthquake";
+// import Earthquake from "./Earthquake";
 // import Weather from "./Weather";
 import ReactFilter from "./ReactFilter";
 import Imc from "./Imc";
@@ -57,14 +57,14 @@ const nav = () => {
             <Nav.Link as={Link} to="/experience" eventKey={2}>
               Experience
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               className="d-none"
               as={Link}
               to="/projects/earthquakeapp"
               eventKey={2}
             >
               Earthquake
-            </Nav.Link>
+            </Nav.Link> */}
             {/* <Nav.Link
               className="d-none"
               as={Link}
@@ -189,9 +189,9 @@ const nav = () => {
         <Route path="/experience">
           <Experience />
         </Route>
-        <Route path="/projects/earthquakeapp">
+        {/* <Route path="/projects/earthquakeapp">
           <Earthquake />
-        </Route>
+        </Route> */}
         {/* <Route path="/projects/weatherapp">
           <Weather />
         </Route> */}
