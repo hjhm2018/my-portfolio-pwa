@@ -30,10 +30,45 @@ function Education() {
               variant="link"
               eventKey="0"
             >
-              Co-Op Diploma
+              Post-Degree Diploma
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">
+            <Card.Body>
+              <div className="row">
+                {/* <div className="col-4 col-md-2">
+                  <img
+                    className="pt-3"
+                    width="100%"
+                    src={cornerstoneImage}
+                    alt={cornerstoneImage}
+                  />
+                </div> */}
+                <div className="col-8 col-md-12 mx-auto">
+                  <p>
+                    <span className="font-weight-bold">
+                      Web and Mobile App Design and Development Post-Degree Program
+                    </span>{" "}
+                    - Langara College,
+                    Vancouver, British Columbia, Canada. May 2023 - Ongoing
+                  </p>
+                </div>
+              </div>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Card.Header className="bg-dark">
+            <Accordion.Toggle
+              className="text-light"
+              as={Button}
+              variant="link"
+              eventKey="1"
+            >
+              Co-Op Diploma
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="1">
             <Card.Body>
               <div className="row">
                 <div className="col-4 col-md-2">
@@ -50,7 +85,7 @@ function Education() {
                       Web and Mobile Applications Development Co-Op Diploma{" "}
                     </span>{" "}
                     - Cornerstone International Community College of Canada,
-                    Vancouver, British Columbia. September 2019 - September 2020
+                    Vancouver, British Columbia, Canada. September 2019 - September 2020
                   </p>
                 </div>
               </div>
@@ -63,12 +98,12 @@ function Education() {
               className="text-light"
               as={Button}
               variant="link"
-              eventKey="1"
+              eventKey="2"
             >
               Undergraduate
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="1">
+          <Accordion.Collapse eventKey="2">
             <Card.Body>
               <div className="row">
                 <div className="col-4 col-md-2">
@@ -93,12 +128,12 @@ function Education() {
               className="text-light"
               as={Button}
               variant="link"
-              eventKey="2"
+              eventKey="3"
             >
               Postgraduate
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="2">
+          <Accordion.Collapse eventKey="3">
             <Card.Body>
               <div className="row pb-4">
                 <div className="col-4 col-md-2">
@@ -136,12 +171,12 @@ function Education() {
               className="text-light"
               as={Button}
               variant="link"
-              eventKey="3"
+              eventKey="4"
             >
               Web Development
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="3">
+          <Accordion.Collapse eventKey="4">
             <Card.Body>
               <ul>
                 <li>
@@ -188,12 +223,12 @@ function Education() {
               className="text-light"
               as={Button}
               variant="link"
-              eventKey="4"
+              eventKey="5"
             >
               Skills
             </Accordion.Toggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="4">
+          <Accordion.Collapse eventKey="5">
             <Card.Body>
               <ul>
                 <li>

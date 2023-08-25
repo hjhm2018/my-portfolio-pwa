@@ -227,8 +227,8 @@ const Projects = () => {
                   className="pt-2"
                   variant="top"
                   src={card.image}
-                  height={250}
-                  width={250}
+                  style={{ height: 'auto', width: '100%' }}
+
                 />
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
