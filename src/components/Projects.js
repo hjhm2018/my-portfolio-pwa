@@ -145,11 +145,11 @@ const Projects = () => {
   ];
 
   const links = [
-    // {
-    //   url: "earthquakeapp",
-    //   name: "Earthquake Counter App",
-    //   icon: "&#x1F30E",
-    // },
+    {
+      url: "earthquakeapp",
+      name: "Earthquake Counter App",
+      icon: "&#x1F30E",
+    },
     // {
     //   url: "weatherapp",
     //   name: "Weather App",
