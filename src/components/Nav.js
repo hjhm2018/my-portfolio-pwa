@@ -15,7 +15,7 @@ import ReactFilter from "./ReactFilter";
 import Imc from "./Imc";
 import Fakenews from "./Fakenews";
 import BirthdayApp from "./BirthdayApp";
-// import CryptocurrencyApp from "./CryptocurrencyApp";
+import CryptocurrencyApp from "./CryptocurrencyApp";
 import RandomBibleVersesApp from "./RandomBibleVersesApp";
 import Palindrome from "./Palindrome";
 import PrimeNumberApp from "./PrimeNumberApp";
@@ -57,14 +57,14 @@ const nav = () => {
             <Nav.Link as={Link} to="/experience" eventKey={2}>
               Experience
             </Nav.Link>
-            {/* <Nav.Link
+            <Nav.Link
               className="d-none"
               as={Link}
               to="/projects/earthquakeapp"
               eventKey={2}
             >
               Earthquake
-            </Nav.Link> */}
+            </Nav.Link>
             {/* <Nav.Link
               className="d-none"
               as={Link}
@@ -106,14 +106,14 @@ const nav = () => {
             >
               BirthdayApp
             </Nav.Link>
-            {/* <Nav.Link
+            <Nav.Link
               className="d-none"
               as={Link}
               to="/projects/cryptocurrencyapp"
               eventKey={2}
             >
               Cryptocurrency App
-            </Nav.Link> */}
+            </Nav.Link>
             <Nav.Link
               className="d-none"
               as={Link}
@@ -207,9 +207,9 @@ const nav = () => {
         <Route path="/projects/birthday">
           <BirthdayApp />
         </Route>
-        {/* <Route path="/projects/cryptocurrencyapp">
+        <Route path="/projects/cryptocurrencyapp">
           <CryptocurrencyApp />
-        </Route> */}
+        </Route>
         <Route path="/projects/randombibleversesapp">
           <RandomBibleVersesApp />
         </Route>
