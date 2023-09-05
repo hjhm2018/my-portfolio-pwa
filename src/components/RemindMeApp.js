@@ -146,7 +146,7 @@ function RemindMeApp() {
           </Form>
         </div>
         <div className="col-12 text-center">
-          <div className="btn-group" role="group" aria-label="Reminder Types">
+          <div className="btn-group col-12" role="group" aria-label="Reminder Types">
             <Button
               variant="dark"
               className="m-2 font-weight-bold"
@@ -197,15 +197,14 @@ function RemindMeApp() {
                   <Card.Body>
                     {reminderFilter === "" && (
                       <Card.Title
-                        className={` ${
-                          reminder.reminderType === "Appointment"
+                        className={` ${reminder.reminderType === "Appointment"
                             ? "bg-danger"
                             : reminder.reminderType === "Birthday"
-                            ? "bg-primary"
-                            : reminder.reminderType === "Meeting"
-                            ? "bg-success"
-                            : ""
-                        } text-white p-2 rounded text-center mb-4`}
+                              ? "bg-primary"
+                              : reminder.reminderType === "Meeting"
+                                ? "bg-success"
+                                : ""
+                          } text-white p-2 rounded text-center mb-4`}
                       >
                         {reminder.reminderType} &nbsp;
                         {reminder.reminderType === "Appointment" ? (

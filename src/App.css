@@ -5,7 +5,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .homeTitle {
+
+  .homeTitle,
+  .title {
     font-size: 20px;
   }
 }

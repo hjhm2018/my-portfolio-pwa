@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Helmet } from "react-helmet";
+import "../App.css";
 
 const Earthquake = () => {
   const [startDate, setStartDate] = useState("");
@@ -276,7 +277,7 @@ const Earthquake = () => {
         <title>Earthquake Counter App</title>
         <meta name="description" content="Earthquake Counter App Page" />
       </Helmet>
-      <h1 className="p-4 font-weight-bolder bg-dark text-light rounded col-12 col-md-10 mx-auto">
+      <h1 className="p-4 font-weight-bolder bg-dark text-light rounded col-12 col-md-10 mx-auto mt-2 title">
         <span role="img" aria-label="Planet Earth emoji">
           &#127758;
         </span>{" "}

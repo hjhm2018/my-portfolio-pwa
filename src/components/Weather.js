@@ -9,6 +9,8 @@ import {
   RiTempHotFill,
 } from "react-icons/ri";
 
+import "../App.css";
+
 const Weather = () => {
 
   const [city, setCity] = useState("");
@@ -26,7 +28,7 @@ const Weather = () => {
 
   return (
     <div className="text-center">
-      <h1 className="text-center bg-dark text-light p-2 rounded sticky-top col-10 mx-auto mt-2 mb-2">
+      <h1 className="text-center bg-dark text-light p-2 rounded sticky-top col-10 mx-auto mt-2 mb-2 title">
         <span role="img" aria-label="sun emoji">
           &#127774;
         </span>{" "}
