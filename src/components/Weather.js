@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from "react-helmet";
 
 import {
   RiTempHotLine,
@@ -28,6 +29,12 @@ const Weather = () => {
 
   return (
     <div className="text-center">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Weather App</title>
+        <meta name="description" content="Weather App Page" />
+      </Helmet>
+
       <h1 className="text-center bg-dark text-light p-2 rounded sticky-top col-10 mx-auto mt-2 mb-2 title">
         <span role="img" aria-label="sun emoji">
           &#127774;

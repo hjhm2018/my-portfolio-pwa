@@ -9,6 +9,8 @@ import {
   MdTrendingDown,
 } from "react-icons/md";
 
+import "../App.css";
+
 const SomeComponent = () => (
   <Preloader
     use={Oval}
@@ -54,7 +56,7 @@ function CryptocurrencyApp() {
         <meta name="description" content="Cryptocurrency App Page" />
       </Helmet>
       <div className="col-12 bg-dark text-warning text-center p-3 mb-2 rounded">
-        <h1 className="font-italic">
+        <h1 className="font-italic title">
           <MdMonetizationOn /> Cryptocurrency App <MdLocalAtm />
         </h1>
       </div>

@@ -10,6 +10,7 @@ import {
   BsPersonCheck,
 } from "react-icons/bs";
 import { Helmet } from "react-helmet";
+import "../App.css";
 
 const getSessionStorage = () => {
   let list = sessionStorage.getItem("list");
@@ -71,7 +72,7 @@ function RemindMeApp() {
       </Helmet>
       <div className="row">
         <div className="col-12 text-center bg-dark text-white rounded mt-2">
-          <h1 className="font-italic">
+          <h1 className="font-italic title">
             <BsPencilSquare /> &nbsp;Remind Me App&nbsp;
             <BsCalendar />
           </h1>
@@ -146,7 +147,7 @@ function RemindMeApp() {
           </Form>
         </div>
         <div className="col-12 text-center">
-          <div className="btn-group col-12" role="group" aria-label="Reminder Types">
+          <div className="btn-group" role="group" aria-label="Reminder Types">
             <Button
               variant="dark"
               className="m-2 font-weight-bold"
@@ -198,12 +199,12 @@ function RemindMeApp() {
                     {reminderFilter === "" && (
                       <Card.Title
                         className={` ${reminder.reminderType === "Appointment"
-                            ? "bg-danger"
-                            : reminder.reminderType === "Birthday"
-                              ? "bg-primary"
-                              : reminder.reminderType === "Meeting"
-                                ? "bg-success"
-                                : ""
+                          ? "bg-danger"
+                          : reminder.reminderType === "Birthday"
+                            ? "bg-primary"
+                            : reminder.reminderType === "Meeting"
+                              ? "bg-success"
+                              : ""
                           } text-white p-2 rounded text-center mb-4`}
                       >
                         {reminder.reminderType} &nbsp;
