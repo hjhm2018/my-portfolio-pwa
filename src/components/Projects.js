@@ -11,6 +11,9 @@ import comparador from "../images/comparador.png";
 import listadetareas from "../images/listadetareas.png";
 import supermarketCalc from "../images/supermarketCalc.png";
 import supermarketList from "../images/supermarketList.png";
+import bibliareflexionoracion from "../images/bibliareflexionoracion.png";
+import mealplanner from "../images/mealplanner.png";
+import randomgroupcreator from "../images/randomgroupcreator.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -57,7 +60,7 @@ const Projects = () => {
       title: "Petrophysics Equations App",
       image: appImage,
       content:
-        "An app published at Google Play with the most common petrophysics equations used in the oil and gas industry.",
+        "An app that was published at Google Play with the most common petrophysics equations used in the oil and gas industry.",
       modalContent: `
       <p>An app built using Unity and C#.</p>
       <p>Ideal for petrophysicists, petroleum geologists, petroleum engineer, geoscientists and geology or earth sciences students. NO LONGER AVAILABLE FOR THE MOMENT AT THE GOOGLE PLAYSTORE`,
@@ -140,6 +143,36 @@ const Projects = () => {
       modalContent: `
       <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!. The website uses localStorage, which means that the data the users save, will be stored in their devices.</p>
       <p>It helps people to make a list of the products they want to shop at the supermarket and track their progress. You can visit it &nbsp; <a href="https://lista-compras.blogspot.com/"
+      target="_blank" rel="noopener noreferrer">here</a>.</p>`,
+    },
+    {
+      title: "Biblia, Reflexión y Oración Website - Spanish",
+      image: bibliareflexionoracion,
+      content:
+        "A website that talks about the Bible, christian devotionals and praying.",
+      modalContent: `
+      <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!. The website uses localStorage, which means that the data the users save, will be stored in their devices.</p>
+      <p>You can visit it &nbsp; <a href="https://biblia-reflexion-oracion.blogspot.com"
+      target="_blank" rel="noopener noreferrer">here</a>.</p>`,
+    },
+    {
+      title: "Random Group Creator App Website - English",
+      image: randomgroupcreator,
+      content:
+        "A website that can help people to create random groups by just providing a list of names without downloading an app.",
+      modalContent: `
+      <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!.</p>
+      <p>It helps people to make a random groups by providing a list of names. Very simple to use! You can visit it &nbsp; <a href="https://random-group-creator.blogspot.com"
+      target="_blank" rel="noopener noreferrer">here</a>.</p>`,
+    },
+    {
+      title: "Meal Planner App Website - English",
+      image: mealplanner,
+      content:
+        "A website that can help people to plan their meals for a whole week without downloading an app.",
+      modalContent: `
+      <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!. The website uses localStorage, which means that the data the users save, will be stored in their devices.</p>
+      <p>It helps people to make a list of the meals that they plan to eat during the week. You can visit it &nbsp; <a href="https://meal-planner-app.blogspot.com"
       target="_blank" rel="noopener noreferrer">here</a>.</p>`,
     },
   ];
