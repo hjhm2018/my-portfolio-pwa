@@ -49,12 +49,12 @@ function About() {
             on Google Play (not available anymore).
           </p>
           <p>
-            I finished a diploma program in Web and Mobile Applications
+            In 2021, I finished a diploma program in Web and Mobile Applications
             Development at Cornerstone International Community College of
-            Canada in 2021.
+            Canada.
           </p>
           <p>
-            Now, I'm currently enrolled at Langara College in Vancouver for the Web and Mobile App Design and Development program.
+            Now, I recently completed my post-degree program in Web and Mobile App Design and Development program at Langara College in Vancouver.
           </p>
           <p>
             The web technologies, programming languages, libraries, frameworks,
@@ -62,7 +62,7 @@ function About() {
             JavaScript, jQuery, Bootstrap, React, AngularJS, Node.js, MongoDB,
             Unity, PHP & MySQL, WordPress, GatsbyJS, Contentful and Vue.js.
           </p>
-          <p>
+          {/* <p>
             This portfolio was built using exclusively ReactJS, but there is a
             version of this portfolio deployed at GitHub that was created using
             HTML, CSS, JavaScript and Bootstrap. You can visit that version of
@@ -75,7 +75,7 @@ function About() {
               here
             </a>
             .
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="col-lg-2"></div>
@@ -101,7 +101,7 @@ function About() {
             title="Resume"
             width="100%"
             height="480"
-            src="https://drive.google.com/file/d/1mW0T_KSaNkLabw3gKwMKOQnWH3AFmHi0/preview"
+            src="https://drive.google.com/file/d/1jIgKskmoEa0qZX3xL2VcnPHcoG2rH_zy/preview"
           ></iframe>
         </div>
       )}
