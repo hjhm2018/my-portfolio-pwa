@@ -14,6 +14,8 @@ import supermarketList from "../images/supermarketList.png";
 import bibliareflexionoracion from "../images/bibliareflexionoracion.png";
 import mealplanner from "../images/mealplanner.png";
 import randomgroupcreator from "../images/randomgroupcreator.png";
+import easypixel from '../images/EasyPixel.JPG'
+import graffixApp from '../images/GraffixApp.JPG'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -173,6 +175,26 @@ const Projects = () => {
       modalContent: `
       <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!. The website uses localStorage, which means that the data the users save, will be stored in their devices.</p>
       <p>It helps people to make a list of the meals that they plan to eat during the week. You can visit it &nbsp; <a href="https://meal-planner-app.blogspot.com"
+      target="_blank" rel="noopener noreferrer">here</a>.</p>`,
+    },
+    {
+      title: "Easy Pixel App Website - English",
+      image: easypixel,
+      content:
+        "A website that can help users to edit their pictures without downloading an app.",
+      modalContent: `
+      <p>A website built on Blogger using HTML, CSS, and JavaScript and it is totally responsive!. The website uses localStorage, which means that the data the users save, will be stored in their devices.</p>
+      <p>It helps people to edit their pictures easily. You can visit it &nbsp; <a href="https://easypixeleditor.blogspot.com/p/home.html"
+      target="_blank" rel="noopener noreferrer">here</a>.</p>`,
+    },
+    {
+      title: "Graffix Mobile App - English",
+      image: graffixApp,
+      content:
+        "An that can help Artists and art lovers to connect.",
+      modalContent: `
+      <p>An App built using Expo React Native, Node.js, MongoDB and AWS.</p>
+      <p>You can visit its website &nbsp; <a href="https://graffixapp.com/"
       target="_blank" rel="noopener noreferrer">here</a>.</p>`,
     },
   ];
