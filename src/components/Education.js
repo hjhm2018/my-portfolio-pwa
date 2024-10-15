@@ -50,7 +50,7 @@ function Education() {
                       Web and Mobile App Design and Development Post-Degree Program
                     </span>{" "}
                     - Langara College,
-                    Vancouver, British Columbia, Canada. May 2023 - Ongoing
+                    Vancouver, British Columbia, Canada. May 2023 - August 2024
                   </p>
                 </div>
               </div>
@@ -232,10 +232,10 @@ function Education() {
             <Card.Body>
               <ul>
                 <li>
-                  <span className="font-weight-bold">Web Development:</span>{" "}
+                  <span className="font-weight-bold">Web  Development:</span>{" "}
                   HTML5, CSS, JavaScript, Sass, jQuery, Bootstrap, React,
                   AngularJS, Node.js, MongoDB, Unity, PHP & MySQL, WordPress,
-                  GatsbyJS, Contentful, GraphQL, Vue.js
+                  GatsbyJS, Contentful, GraphQL, Vue.js, React Native
                 </li>
               </ul>
             </Card.Body>
