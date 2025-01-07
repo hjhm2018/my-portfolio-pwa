@@ -10,6 +10,22 @@ function Experience() {
   const experiences = [
     {
       id: 1,
+      title: "Order Processor",
+      company: "Purdys Chocolatier | Nov 2024 - Dec 2024",
+      description: [
+        "Ecommerce Order Processor - Shipper", "Packing customer orders and double checking the items to ensure the order has been fulfilled prior to shipment",
+      ],
+    },
+    {
+      id: 2,
+      title: "Web Developer",
+      company: "Freelance | Dec 2017 -",
+      description: [
+        "Developing mostly front-end related projects mainly in JavaScript"
+      ],
+    },
+    {
+      id: 3,
       title: "Software Specialist",
       company: "BeicipFranlab | Jul 2014 - Jun 2015",
       description: [
@@ -19,7 +35,7 @@ function Experience() {
       ],
     },
     {
-      id: 2,
+      id: 4,
       title: "Intern",
       company: "Halliburton | May 2008 - Nov 2008",
       description: [
@@ -30,7 +46,7 @@ function Experience() {
       ],
     },
     {
-      id: 3,
+      id: 5,
       title: "Lecturer Assistant",
       company: "Universidad de Oriente | Jan 2005 - Mar 2008",
       description: [
