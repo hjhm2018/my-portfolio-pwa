@@ -69,12 +69,18 @@ function Experience() {
 
       <div className="col-12 text-center">
         <button className={`${styles.button} m-2`} onClick={() => setId(1)}>
-          Software Specialist
+          Order Processor
         </button>
         <button className={`${styles.button} m-2`} onClick={() => setId(2)}>
-          Intern
+          Web Developer
         </button>
         <button className={`${styles.button} m-2`} onClick={() => setId(3)}>
+          Software Specialist
+        </button>
+        <button className={`${styles.button} m-2`} onClick={() => setId(4)}>
+          Intern
+        </button>
+        <button className={`${styles.button} m-2`} onClick={() => setId(5)}>
           Lecturer Assistant
         </button>
       </div>
