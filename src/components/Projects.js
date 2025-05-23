@@ -14,8 +14,8 @@ import supermarketList from "../images/supermarketList.png";
 import bibliareflexionoracion from "../images/bibliareflexionoracion.png";
 import mealplanner from "../images/mealplanner.png";
 import randomgroupcreator from "../images/randomgroupcreator.png";
-import easypixel from '../images/EasyPixel.JPG'
-import graffixApp from '../images/GraffixApp.JPG'
+import easypixel from "../images/EasyPixel.JPG";
+import graffixApp from "../images/GraffixApp.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -190,8 +190,7 @@ const Projects = () => {
     {
       title: "Graffix Mobile App - English",
       image: graffixApp,
-      content:
-        "An that can help Artists and art lovers to connect.",
+      content: "An that can help Artists and art lovers to connect.",
       modalContent: `
       <p>An App built using Expo React Native, Node.js, MongoDB and AWS.</p>
       <p>You can visit its website &nbsp; <a href="https://graffixapp.com/"
@@ -225,11 +224,11 @@ const Projects = () => {
       name: "Birthday Reminder App",
       icon: "&#x1F382;",
     },
-    {
-      url: "cryptocurrencyapp",
-      name: "Cryptocurrencies Price App",
-      icon: "&#x1F4B9;",
-    },
+    // {
+    //   url: "cryptocurrencyapp",
+    //   name: "Cryptocurrencies Price App",
+    //   icon: "&#x1F4B9;",
+    // },
     {
       url: "randombibleversesapp",
       name: "Random Bible Verses App",
@@ -282,8 +281,7 @@ const Projects = () => {
                   className="pt-2"
                   variant="top"
                   src={card.image}
-                  style={{ height: 'auto', width: '100%' }}
-
+                  style={{ height: "auto", width: "100%" }}
                 />
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
