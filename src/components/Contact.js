@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import ContactForm from "./ContactForm";
 import { Card, Button } from "react-bootstrap";
 import image from "../images/linkedin.jpeg";
-import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+// import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import { RiContactsBookLine } from "react-icons/ri";
 
 function Contact() {
   const [showForm, setshowForm] = useState(false);
 
-  const buttonShow = () => {
-    setshowForm(true);
-  };
+  // const buttonShow = () => {
+  //   setshowForm(true);
+  // };
 
   const buttonHide = () => {
     setshowForm(false);
@@ -57,14 +58,14 @@ function Contact() {
             </Card>
           </div>
 
-          <div className="col-lg-12 mt-1 mb-5 text-center">
+          {/* <div className="col-lg-12 mt-1 mb-5 text-center">
             <button
               onClick={buttonShow}
               className="btn btn-success font-weight-bold"
             >
               Send a message <AiOutlineMail />
             </button>
-          </div>
+          </div> */}
         </div>
       )}
 
