@@ -5,15 +5,29 @@ import { MdWork } from "react-icons/md";
 import styles from "../Experience.module.css";
 
 function Experience() {
-  const [id, setId] = useState(1);
+  const [id, setId] = useState(0);
 
   const experiences = [
     {
+      id: 0,
+      title: "Customer Service Representative",
+      company: "Purdys Chocolatier | August - December 2025",
+      description: [
+        "Customer Service Representative",
+        "Supporting the promotion of Fundraising and Group Savings programs to both new and existing customers through inbound and outbound calls",
+        "Managing CRM updates to maintain accurate user information",
+        "Payment processing through Square, shipment tracking and providing technical support",
+        "Shipment tracking",
+        "Providing technical support",
+      ],
+    },
+    {
       id: 1,
       title: "Order Processor",
-      company: "Purdys Chocolatier | Nov 2024 - Dec 2024",
+      company: "Purdys Chocolatier | November - December 2024",
       description: [
-        "Ecommerce Order Processor - Shipper", "Packing customer orders and double checking the items to ensure the order has been fulfilled prior to shipment",
+        "Ecommerce Order Processor - Shipper",
+        "Packing customer orders and double checking the items to ensure the order has been fulfilled prior to shipment",
       ],
     },
     {
@@ -21,7 +35,7 @@ function Experience() {
       title: "Web Developer",
       company: "Freelance | Dec 2017 -",
       description: [
-        "Developing mostly front-end related projects mainly in JavaScript"
+        "Developing mostly front-end related projects mainly in JavaScript",
       ],
     },
     {
@@ -68,7 +82,19 @@ function Experience() {
       </h1>
 
       <div className="col-12 text-center">
-        <button className={`${styles.button} m-2`} onClick={() => setId(1)}>
+        {experiences &&
+          experiences.map((experience, index) => {
+            return (
+              <button
+                key={index}
+                className={`${styles.button} m-2`}
+                onClick={() => setId(index)}
+              >
+                {experience.title}
+              </button>
+            );
+          })}
+        {/* <button className={`${styles.button} m-2`} onClick={() => setId(1)}>
           Order Processor
         </button>
         <button className={`${styles.button} m-2`} onClick={() => setId(2)}>
@@ -82,7 +108,7 @@ function Experience() {
         </button>
         <button className={`${styles.button} m-2`} onClick={() => setId(5)}>
           Lecturer Assistant
-        </button>
+        </button> */}
       </div>
       <div className="col-10 mx-auto mt-4 border rounded p-3">
         {experiences &&
