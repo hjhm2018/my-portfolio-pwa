@@ -54,7 +54,8 @@ function About() {
             Canada.
           </p>
           <p>
-            Now, I recently completed my post-degree program in Web and Mobile App Design and Development program at Langara College in Vancouver.
+            Now, I recently completed my post-degree program in Web and Mobile
+            App Design and Development program at Langara College in Vancouver.
           </p>
           <p>
             The web technologies, programming languages, libraries, frameworks,
@@ -79,7 +80,7 @@ function About() {
         </div>
       </div>
       <div className="col-lg-2"></div>
-      <div className="col-lg-12 text-center mb-2">
+      {/* <div className="col-lg-12 text-center mb-2">
         <p>You can take a look at my resume:</p>
 
         {show ? (
@@ -104,7 +105,7 @@ function About() {
             src="https://drive.google.com/file/d/1jIgKskmoEa0qZX3xL2VcnPHcoG2rH_zy/preview"
           ></iframe>
         </div>
-      )}
+      )} */}
 
       <div className="pb-5 mt-5 mb-5 invisible">
         This is an invisible container
