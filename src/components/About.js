@@ -1,17 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import { BiUserCircle } from "react-icons/bi";
 
 function About() {
-  let [show, setShow] = useState(true);
+  // let [show, setShow] = useState(true);
 
-  let showResume = () => {
-    setShow(false);
-  };
+  // let showResume = () => {
+  //   setShow(false);
+  // };
 
-  let hideResume = () => {
-    setShow(true);
-  };
+  // let hideResume = () => {
+  //   setShow(true);
+  // };
 
   return (
     <div className="container">
